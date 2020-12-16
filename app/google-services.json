@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "757228804163",
+    "firebase_url": "https://zapatosapp-20872.firebaseio.com",
+    "project_id": "zapatosapp-20872",
+    "storage_bucket": "zapatosapp-20872.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757228804163:android:32f3ebb393f9c240991cf6",
+        "android_client_info": {
+          "package_name": "com.example.zapatosapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757228804163-is5lafd5u03hi41g0ud165pssc527p3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrejZy2FCXoZPwIvdkP4RBX5RirW98lcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757228804163-is5lafd5u03hi41g0ud165pssc527p3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
