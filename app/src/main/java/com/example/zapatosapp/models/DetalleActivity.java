@@ -37,6 +37,7 @@ public class DetalleActivity extends AppCompatActivity {
     private CalzadoModel model;
     private DocumentReference documentReference;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,13 +78,18 @@ public class DetalleActivity extends AppCompatActivity {
                                 et_detalle_size.setText(model.getSize());
                                 et_detalle_brand.setText(model.getBrand());
                             }
-                            updateModel(model);
+                            //updateModel(model);
 
                         }
                     }
 
                 });
-
+        btn_upgrade.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                updateModel(model);
+            }
+        });
 
     }
 
